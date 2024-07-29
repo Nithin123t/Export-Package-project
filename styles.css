@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;    
+    margin: 0;
+    padding: 0; 
+    background-image: url('export.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-name {
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    margin-left: 10px;
+}
+.social-links {
+    display: inline;
+    justify-content: end;
+    text-align: end;
+}
+.intro{
+    color: rgb(5, 2, 2);
+    border-radius: 0%;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+.intro img{
+    width: 150px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 150px;
+    left: 3px;
+    display: flex;
+}
+
+
+.pack {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pack button {
+    padding: 10px 20px;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pack button:hover {
+    background-color: #45a049; 
+  }
