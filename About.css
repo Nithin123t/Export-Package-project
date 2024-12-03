@@ -25,13 +25,72 @@ header h1 {
     text-align: center;
 }
 
+nav {
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('https://img.freepik.com/free-photo/technological-futuristic-holograms-logistics-means-transport_23-2151663057.jpg?semt=ais_hybrid') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px; /* Fixed missing semicolon */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
 .about {
-    padding: 20px 0;
+    padding: 40px 0;
     background-color: #f2f2f2; 
 }
 
 .about h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .about p {
@@ -47,5 +106,20 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+.social-links a:hover {
+    color: #4CAF50;
 }

@@ -1,47 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;    
+    margin: 0;
+    padding: 0; 
+    background-image: url('https://img.freepik.com/free-photo/technological-futuristic-holograms-logistics-means-transport_23-2151663056.jpg?semt=ais_hybrid'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
-    background-color: #333;
+    background-color: #4CAF50; 
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 0;
+}
+
+header .company-name {
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
-.company-name {
-    padding-right: 20px;
+.nav-links li {
+    margin: 0 15px;
 }
 
-.social-links img {
-    width: 30px;
-    margin-left: 10px;
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-.main {
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+main {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
 }
 
 .contact {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .contact h1 {
     text-align: center;
     font-size: 32px;
     color: #333;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .contact p {
     font-size: 16px;
-    color: #666;
+    color: #080101;
     margin-bottom: 20px;
 }
 
@@ -75,8 +109,68 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+.contact-info {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #4CAF50;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+    }
 }

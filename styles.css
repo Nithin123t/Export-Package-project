@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;    
     margin: 0;
     padding: 0; 
-    background-image: url('export.png'); 
+    background-image: url('https://img.freepik.com/free-photo/technological-futuristic-holograms-logistics-means-transport_23-2151663049.jpg?semt=ais_hybrid'); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background-color: #333;
+    background-color: #5f4848;
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -40,17 +40,23 @@ nav ul li a {
     text-decoration: none;
 }
 
-.social-links img {
-    width: 30px;
-    margin-left: 10px;
-}
 .social-links {
-    display: inline;
-    justify-content: end;
-    text-align: end;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #4CAF50;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #333;
+
 }
 .intro{
-    color: rgb(5, 2, 2);
+    color: rgb(238, 223, 11);
     border-radius: 0%;
     margin-top: 200px;
     margin-left: 180px;
